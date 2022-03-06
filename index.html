@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Time Tracking Dashboard</title>
+  <script src="./script.js"></script>
+  <script src="./data.js"></script>
+</head>
+<body>
+  <div class="grid-wrapper">
+    <div class="main-grid">
+      <div class="card user-card">
+        <div class="user-display">
+          <div class="flex-wrapper">
+            <div class="img-wrapper">
+              <img src="images/image-jeremy.png" alt="jeremy">
+            </div>
+            <div class="text-block-wrapper">
+              <p class="for">Report For</p>
+              <p class="user-name">Jeremy Robinson</p>
+            </div>
+          </div>
+        </div>
+        <div class="timeperiod-selector">
+            <input type="button" value="Daily" class="btn daily">
+            <input type="button" value="Weekly" class="btn weekly">
+            <input type="button" value="Monthly" class="btn monthly">
+        </div>
+      </div>
+  
+      <div class="card time-card bg-work">
+        <div class="card info-card">
+          <div class="title-header">
+            <p class="type-label">Work</p>
+            <img class="dots" src="images/icon-ellipsis.svg" alt="ellipsis">
+          </div>
+          <div class="duration-panel">
+            <p class="current-period work-current">32hrs</p>
+            <p class="previous-period work-previous">Last Week - 32hrs</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="card time-card bg-play">
+        <div class="card info-card">
+          <div class="title-header">
+            <p class="type-label">Play</p>
+            <img class="dots" src="images/icon-ellipsis.svg" alt="ellipsis">
+          </div>
+          <div class="duration-panel">
+            <p class="current-period play-current">10hrs</p>
+            <p class="previous-period play-previous">Last Week - 8hrs</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="card time-card bg-study">
+        <div class="card info-card">
+          <div class="title-header">
+            <p class="type-label">Study</p>
+            <img class="dots" src="images/icon-ellipsis.svg" alt="ellipsis">
+          </div>
+          <div class="duration-panel">
+            <p class="current-period study-current">4hrs</p>
+            <p class="previous-period study-previous">Last Week - 7hrs</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="card time-card bg-exercise">
+        <div class="card info-card">
+          <div class="title-header">
+            <p class="type-label">Exercise</p>
+            <img class="dots" src="images/icon-ellipsis.svg" alt="ellipsis">
+          </div>
+          <div class="duration-panel">
+            <p class="current-period exercise-current">4hrs</p>
+            <p class="previous-period exercise-previous">Last Week - 5hrs</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="card time-card bg-social">
+        <div class="card info-card">
+          <div class="title-header">
+            <p class="type-label">Social</p>
+            <img class="dots" src="images/icon-ellipsis.svg" alt="ellipsis">
+          </div>
+          <div class="duration-panel">
+            <p class="current-period social-current">5hrs</p>
+            <p class="previous-period social-previous">Last Week - 10hrs</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="card time-card bg-self-care">
+        <div class="card info-card">
+          <div class="title-header">
+            <p class="type-label">Self Care</p>
+            <img class="dots" src="images/icon-ellipsis.svg" alt="ellipsis">
+          </div>
+          <div class="duration-panel">
+            <p class="current-period self-care-current">2hrs</p>
+            <p class="previous-period self-care-previous">Last Week - 2hrs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
